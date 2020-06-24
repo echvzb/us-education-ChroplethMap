@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700&display=swap');
+body{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.us{
+    fill: none;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+}
+.leyend-txt{
+    text-anchor: middle;
+    font-size: 14px;
+}
+.states{
+    stroke: #ecf0f1;
+    fill: none;
+    stroke-linejoin: round;
+}
+.title,.subtitle{
+    text-align: center;
+}
+.title{
+    font-size: 3rem;
+    padding: 1rem 0 0 0;
+    color: #635F5D;
+}
+.subtitle{
+    margin-bottom: 1.5rem;
+}
+.subtitle, .source{
+    color: #8E8883;
+    font-size: 1rem;
+}
+.source{
+    width: 960px;
+    text-align: right;
+    margin-top: 1rem;    
+}
+.map-container{
+    background: #d2dae2;
+    border-radius: 4px;
+}
+text, .title, .subtitle, .source{
+    font-family: 'Libre Franklin', sans-serif;
+    fill: #635F5D;
+}
+a, a:active{
+    color: #5F27CD;
+}
+div.tooltip{
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+div.tooltip{
+    position: absolute;			
+    font-weight: 300;		
+    padding: 10px;
+    font-size: 14px;
+    color:#fff;		
+    background: #635F5D;	
+    border: 0px;		
+    border-radius: 8px;			
+    pointer-events: none;	
+}
